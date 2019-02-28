@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  rand 1..11
+  rand(1..11)
 end
 
 def display_card_total(card_total)
@@ -30,8 +30,6 @@ end
 
 def initial_round
   # code #initial_round here
-  card_one = deal_card
-  card_two = deal_card
   card_total = card_one + card_two
   display_card_total(card_total)
   return(card_total)
