@@ -30,7 +30,7 @@ end
 
 def initial_round
   # code #initial_round here
-  card_total = card_one + card_two
+  card_total = rand(1..11) + rand(1..11)
   display_card_total(card_total)
   return(card_total)
 end
